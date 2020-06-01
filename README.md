@@ -1,3 +1,3 @@
 Ecoleta
 
-Projeto criado durante a Next Level Week da Rocketseat
+Projeto criado durante a Next Leve Week, pela Rocketseat
