@@ -1,4 +1,4 @@
-function populateUFs() {
+    function populateUFs() {
     const ufSelect = document.querySelector("select[name=uf]")
 
     fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados")
@@ -70,11 +70,9 @@ document
         itemLi.classList.toggle("selected")
 
         const itemId = itemLi.dataset.id
-     
-
-
         
         
+
         //Verificar se existem items selecionados. Se sim
         //Pegar os items selecionados
 
@@ -97,6 +95,8 @@ document
             //Adicionar o elemento
             selectedItems.push(itemId)
         }
+
+        
 
         //Atualizar o campo escondido com os items selecionados
         collecetedItems.value = selectedItems
